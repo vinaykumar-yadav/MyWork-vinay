@@ -1,0 +1,8 @@
+ERROR:root:There is an error in Program
+CRITICAL:root:There is a critical error in Program
+ERROR:root:There is an error in Program
+CRITICAL:root:There is a critical error in Program
+ERROR:root:There is an error in Program
+CRITICAL:root:There is a critical error in Program
+ERROR:root:There is an error in Program
+CRITICAL:root:There is a critical error in Program
