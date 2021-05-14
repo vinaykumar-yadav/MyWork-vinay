@@ -6,6 +6,11 @@
 trigger:
 - none
 
+stages:
+- stage: Build
+  jobs: 
+  - job: Build
+
 pool:
   vmImage: 'windows-latest'
 
@@ -13,6 +18,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  group: AzureResourcesVariableGroup
 
 steps:
 - task: NuGetToolInstaller@1
